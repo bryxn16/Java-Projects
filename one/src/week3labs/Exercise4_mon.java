@@ -27,13 +27,6 @@ public class Exercise4_mon {
 		
 		System.out.println("\nThank you for using this program!");
 
-
-
-		
-		
-		
-		
-		
 		input.close(); //step 3
 	}
 

@@ -42,7 +42,7 @@ public class ArrayOne_mon {
 		System.out.println("last element of array -10: " + (myArray[length-1]-10));
 		for(int i=0; i<length; i++)
 		{
-			System.out.print((2*myArray));
+			//System.out.print((2*myArray));
 			count++;
 		}
 

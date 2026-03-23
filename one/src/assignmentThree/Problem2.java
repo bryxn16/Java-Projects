@@ -27,7 +27,7 @@ public class Problem2 {
 			System.out.println("\"Total\"" + " score for student " + studentCount + " is: " + total);
 			System.out.println("\"Average\"" + " score for student " + studentCount + " is: " + average);
 		}
-		System.out.println();
+		//System.out.println(); delete this once you get back to this code
 		input.close();
 	}
 

@@ -12,23 +12,22 @@ public class Problem2 {
 		System.out.println("How many test scores does each student have?: ");
 		int testScoreCount = input.nextInt();
 		
-		for(int i=0; i<=studentCount; i++)
+		for(int i=1; i<=studentCount; i++)
 		{
 			int total = 0;
-			for(int x=0; x<=testScoreCount; x++)
+			for(int x=1; x<=testScoreCount; x++)
 			{
-				System.out.println("Enter score " + testScoreCount + " for student " + studentCount +": ");
+				System.out.println("Enter score " + x + " for student " + i +": ");
 				int testScore = input.nextInt();
 				total += testScore;
 			}
 			
-			int average = total/testScoreCount;
+			double average = total/testScoreCount;
 
-			System.out.println("\"Total\"" + " score for student " + studentCount + " is: " + total);
-			System.out.println("\"Average\"" + " score for student " + studentCount + " is: " + average);
+			System.out.println("\"Total\"" + " score for student " + i + " is: " + total);
+			System.out.println("\"Average\"" + " score for student " + i + " is: " + average);
 		}
-		//System.out.println(); delete this once you get back to this code
 		input.close();
-	}
+	}//main
 
-}
+}//class

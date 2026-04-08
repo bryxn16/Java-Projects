@@ -1,7 +1,7 @@
 package week6labs;
 import java.util.Scanner; //step 1
 public class MethodOne_mon {
-public static Scanner input = new Scanner(System.in); //step 2
+public static Scanner input = new Scanner(System.in); // EXAM 2 this is put up here so all the other public methods can read the scanner input
 	public static void main(String[] args) 
 	{
 		System.out.println("\n***User Information***");

@@ -1,7 +1,6 @@
 package help;
 import java.util.Scanner;
 public class MethodTwoNumbers {
-
 	public static void main(String[] args) 
 	{
 		Scanner input = new Scanner(System.in); //step 2

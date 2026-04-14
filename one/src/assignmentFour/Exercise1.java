@@ -42,6 +42,7 @@ public static int AB_neg = 0;
 		}while (choice != 4);
 			System.out.println("Thanks for using this program");
 		input.close();
+		
 	}//end of main
 	public static void admin()
 	{
@@ -122,7 +123,7 @@ public static int AB_neg = 0;
 		System.out.println("Do you want your information to be displayed now (Y/N): ");
 		char infoDisplayed = input.next().charAt(0);
 		
-		if(infoDisplayed == 'Y')
+		if(infoDisplayed == 'Y' ||infoDisplayed == 'y')
 		{
 			System.out.println("Your name: " + name);
 			System.out.println("Your gender: " + gender);
@@ -133,15 +134,121 @@ public static int AB_neg = 0;
 		{
 			System.out.println("No Problem :)");
 		}
-		
-		
-		
-		
-		
 	}//end of donor
 	public static void patient()
 	{
 		System.out.println("Welcome Patient!!!");
+		
+		System.out.println("Enter your name");
+		String patientName = input.next();
+		
+		System.out.println("Enter a bloud group you are looking for: ");
+		System.out.println("\"O+\" = O Positive Blood Group");
+		System.out.println("\"O\"- = O Negative Blood Group");
+		System.out.println("\"A+\" = A Positive Blood Group");
+		System.out.println("\"A-\" = A Negative Blood Group");
+		System.out.println("\"B+\" = B Positive Blood Group");
+		System.out.println("\"B-\" = B Negative Blood Group");
+		System.out.println("\"AB+\" = AB Positive Blood Group");
+		System.out.println("\"AB-\" = AB Negative Blood Group");
+		
+		String bloodtype = input.next();
+		if(bloodtype.equals("O+"))
+		{
+			if(O_pos > 0)
+			{
+				O_pos--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}
+		else if(bloodtype.equals("O-"))
+		{
+			if(O_neg > 0)
+			{
+				O_neg--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}
+		else if(bloodtype.equals("A+"))
+		{
+			if(A_pos > 0)
+			{
+				A_pos--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}
+		else if(bloodtype.equals("A-"))
+		{
+			if(A_neg > 0)
+			{
+				A_neg--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}
+		else if(bloodtype.equals("B+"))
+		{
+			if(B_pos > 0)
+			{
+				B_pos--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}	
+		else if(bloodtype.equals("B-"))
+		{
+			if(B_neg > 0)
+			{
+				B_neg--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}	
+		else if(bloodtype.equals("AB+"))
+		{
+			if(AB_pos > 0)
+			{
+				AB_pos--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}	
+		else if(bloodtype.equals("AB-"))
+		{
+			if(AB_neg > 0)
+			{
+				AB_neg--;
+				System.out.println("You can have on packet of blood.");
+			}
+			else
+			{
+				System.out.println("Compatible blood group is not available");
+			}
+		}	
 	}//end of patient
 	public static void showBlood()
 	{
@@ -155,6 +262,4 @@ public static int AB_neg = 0;
 		System.out.println("AB+: " + AB_pos);
 		System.out.println("AB-: " + AB_neg);
 	}//end of showBlood
-	
-
 }//end of class

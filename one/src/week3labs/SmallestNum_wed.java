@@ -23,9 +23,6 @@ public class SmallestNum_wed {
 			
 		System.out.println("Smallest number = " + small);
 		
-		
-		
-		
 		input.close(); //step 3
 	}
 

@@ -11,19 +11,19 @@ public class Book
 	private int copiesSold;
 	
 	//constructor
-	public Book(String title, String author, String publisher, int copiesSold)
+	public Book(String t, String a, String p, int cS)
 	{
-		this.title = title;
-		this.author = author;
-		this.publisher = publisher;
-		this.copiesSold = copiesSold;
+		title = t;
+		author = a;
+		publisher = p;
+		copiesSold = cS;
 	}//end of book
 	
 	//start of ACCESSORS : getters
 	public  String getTitle()
 	{
 		return title;
-	}//endn of getTitle
+	}//end of getTitle
 	public  String getAuthor()
 	{
 		return author;
@@ -39,27 +39,20 @@ public class Book
 
 	
 	//start of MUTATORS : setters
-	public void setTitle(String title)
+	public void setTitle(String t)
 	{
-		this.title = title;
+		title = t;
 	}//end of setTitle
-	public void setAuthor(String author)
+	public void setAuthor(String a)
 	{
-		this.author = author;
+		author = a;
 	}//end of setAuthor
-	public void setPublisher(String publisher)
+	public void setPublisher(String p)
 	{
-		this.publisher = publisher;
+		publisher = p;
 	}//end of setPublisher
-	public void setCopiesSold(int copiesSold)
+	public void setCopiesSold(int cS)
 	{
-		this.copiesSold = copiesSold;
+		copiesSold = cS;
 	}//end of SetCopiesSold
-	
-	
-	
-	
-	
-	
-	
-}
+}//end of class

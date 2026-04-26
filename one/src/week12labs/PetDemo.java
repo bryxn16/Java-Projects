@@ -31,11 +31,6 @@ public class PetDemo {
 		//compare
 		myPet.compare(yourPet);
 		
-		
-		
-		
-		
 		input.close();
 	}
-
 }

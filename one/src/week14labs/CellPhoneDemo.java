@@ -30,10 +30,6 @@ public class CellPhoneDemo {
 		System.out.println("\nHere is the NEW data that you provided:");
 		cp.displayCellPhone(cp);
 		
-		
-		
-		
 		input.close();
 	}
-
 }

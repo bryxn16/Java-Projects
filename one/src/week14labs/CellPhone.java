@@ -48,12 +48,6 @@ public class CellPhone
 		System.out.println("Model: " + model);
 		System.out.println("Retail Price $" + retailPrice);
 	}
-	
-	
-	
-	
-	
-	
 }//end of class
 
 

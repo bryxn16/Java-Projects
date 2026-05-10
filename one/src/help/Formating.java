@@ -13,7 +13,7 @@ public class Formating {
 		
 		System.out.println("Area = " + area);
 		System.out.printf("Area up to \"2\" decimal points = " + "%.2f\n",area);
-										//quotes 					//decimals
+									  //quotes 					  //decimals
 		input.close();
 	}
 

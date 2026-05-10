@@ -24,7 +24,7 @@ public class SimpleArray {
 		int count = 0;
 		for(int n: myArray)
 		{
-			System.out.print(n + "  ");
+			System.out.print(n + ",  ");
 			count++;
 		}
 		System.out.println("\n\nTotal elements: " + count);

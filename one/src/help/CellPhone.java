@@ -1,5 +1,4 @@
-package week14labs;
-
+package help;
 public class CellPhone 
 {
 	private String manufact;
@@ -49,7 +48,3 @@ public class CellPhone
 		System.out.println("Retail Price $" + retailPrice);
 	}
 }//end of class
-
-
-
-

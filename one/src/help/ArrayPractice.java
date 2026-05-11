@@ -9,12 +9,13 @@ public class ArrayPractice {
 		int length = num.length;
 		int sumNoMiss = 0;
 		int sumMiss = 0;
-		for(int i=0; i<num.length; i++)  //this adds up each array value 
+		for(int i=0; i<length; i++)  
 		{
+			//this adds up each array value
 			sumNoMiss += num[i];
 		}
-		int missingNumber = sumNoMiss - sumMiss;  //finds the missing number
-		
+		//finds the missing number
+		int missingNumber = sumNoMiss - sumMiss;  
 		System.out.println("Sum without missing number : " + sumNoMiss);
 		System.out.println("Sum wiht missing number : " + sumMiss);
 		System.out.println("Missing number : " + missingNumber);

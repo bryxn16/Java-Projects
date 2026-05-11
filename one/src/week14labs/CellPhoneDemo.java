@@ -31,5 +31,10 @@ public class CellPhoneDemo {
 		cp.displayCellPhone(cp);
 		
 		input.close();
+<<<<<<< HEAD
 	}//end of main
 }//end of class
+=======
+	}
+}
+>>>>>>> branch 'master' of https://github.com/bryxn16/Java-Projects

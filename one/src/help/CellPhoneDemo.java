@@ -8,14 +8,14 @@ public class CellPhoneDemo {
 		
 		System.out.println("Enter the manufacturer: ");
 		String manufacturer = input.nextLine();
-		
 		System.out.println("Enter the model: ");
 		String model = input.nextLine();
 		
 		System.out.println("Enter the retail price: ");
 		double price = input.nextInt();
 		
-		CellPhone cp = new CellPhone(manufacturer, model, price);    		//HERE IS THE OBJECT CREATION
+		//HERE IS THE OBJECT CREATION
+		CellPhone cp = new CellPhone(manufacturer, model, price);  
 		
 		System.out.println("\nHere is the data that you provided:");
 		System.out.println("Manufacturer: " + cp.getManufact());

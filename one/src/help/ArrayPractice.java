@@ -11,7 +11,7 @@ public class ArrayPractice {
 		int length = Array.getLength(num);
 		int sumNoMiss = 0;
 		int sumMiss = 0;
-		for(int i=0; i<num.length; i++)  //this adds up each array value
+		for(int i=0; i<num.length; i++)  //this adds up each array value 
 		{
 			sumNoMiss += num[i];
 		}

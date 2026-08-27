@@ -15,7 +15,7 @@ Scanner input = new Scanner(System.in);
 		}
 		else if(num == 2)
 		{
-			System.out.println("Roman numeral is II");
+			System.out.println("Roman numeral is II"); //123
 		}
 		else if(num == 3)
 		{
